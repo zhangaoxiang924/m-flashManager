@@ -1,0 +1,99 @@
+/**
+ * Author：zhoushuanglong
+ * Time：2017/7/27
+ * Description：main
+ */
+
+@import "../../../libs/scss/rem";
+
+.shop-menu {
+    border-right: 0;
+    height: 100%;
+
+    .ant-menu-item {
+        position: relative;
+
+        a {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.shop-slider {
+    background: #fff;
+}
+
+.shop-content-wrap {
+    padding: 0 0 rem(24);
+}
+
+.shop-content {
+    margin: 0;
+    padding: rem(24);
+    background: #fff;
+    border-radius: rem(3);
+    min-height: rem(280);
+    overflow-y: auto;
+}
+
+.shop-breadcrumb {
+    margin: rem(12) 0;
+    padding-left: rem(24);
+}
+
+/* .shop-logo {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.1s ease-in 0s;
+    cursor: pointer;
+
+    img {
+        display: inline-block;
+        margin-top: (64 - 36)/2 + px;
+        height: rem(36);
+    }
+} */
+
+.ant-layout-header {
+    padding: rem(20) rem(50);
+    height: unset;
+    line-height: unset;
+
+    .system-title {
+        color: #fff;
+        //margin-left: rem(45);
+        float: left;
+        font-size: rem(28);
+    }
+
+    .logOut {
+        width: rem(100);
+        height: rem(40);
+        padding: 0;
+    }
+}
+
+.shop-func {
+    float: right;
+
+    button {
+        margin-left: rem(10);
+    }
+}
+
+.game-id {
+    margin-left: rem(70);
+    background-color: transparent !important;
+
+    .name {
+        color: #ffb75d;
+        font-size: rem(13);
+    }
+}
+
