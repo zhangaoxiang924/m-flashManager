@@ -37,7 +37,7 @@ module.exports = {
         path: DIST_PATH,
         filename: 'js/[name]-[hash:8].js',
         chunkFilename: 'js/[name]-[chunkhash:8].js',
-        publicPath: '../'
+        publicPath: 'http://admin.huoxing24.com/m/flash/'
     },
     module: {
         rules: [
